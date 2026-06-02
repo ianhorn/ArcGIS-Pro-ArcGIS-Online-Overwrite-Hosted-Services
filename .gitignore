@@ -8,6 +8,7 @@ __pycache__/
 *.sde
 *.gdb
 *.zip
+in_memory
 
 # Distribution / packaging
 .Python
