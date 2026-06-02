@@ -2,9 +2,12 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+.vscode/
 # C extensions
 *.so
+*.sde
+*.gdb
+*.zip
 
 # Distribution / packaging
 .Python
