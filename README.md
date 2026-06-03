@@ -23,7 +23,7 @@ cd agol-overwrite-repo
 git clone https://github.com/ianhorn/ArcGIS-Pro-ArcGIS-Online-Overwrite-Hosted-Services.git .
 
 git checkout -b mybranch
-conda activate conda activate "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3"
+conda activate "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3"
 ```
 1. Copy the content in the [creds_example.py](creds_example.py) file and paste in the the [creds.py](creds.py) file. 
 2. Update variable values
