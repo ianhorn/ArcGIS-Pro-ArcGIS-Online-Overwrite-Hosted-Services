@@ -17,6 +17,8 @@ mapping = {
 
 ## Setup
 
+Feel free to fork or download this repo for your personal use.
+
 #### Notebook
 
 The Jupyter [Notebook](OverwriteHostedServices.ipynb) uses ArcGIS Pro's default Python environment.  You may clone the environment, but it is not necessary because the script requires no new packages.  
@@ -54,6 +56,6 @@ DB_CONNECTION_NAME = 'awesome_instance_awesome'
 Due to ArcGIS Pro's reliably unreliable behavior, you can expect to run into the infamous `Error 999999`.  If this happens:
 1. Shutdown the ArcGIS Pro Desktop Application
 2. Open Task Managar
-3. Kill any lingering background processes
+3. Kill any lingering ArcGIS Pro background processes
 4. Open Pro
 5. Run notebook
