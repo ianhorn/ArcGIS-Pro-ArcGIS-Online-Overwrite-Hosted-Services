@@ -3,6 +3,23 @@
 
 The repo demonstrates how to use [ArcPy](https://doc.esri.com/en/arcgis-pro/latest/arcpy/get-started/what-is-arcpy-.html) and the [ArcGIS API for Python](https://developers.arcgis.com/python/latest/) to overwrite existing hosted services to ArcGIS Online (AGOL). 
 
+
+
+## Setup (Optional)
+
+Feel free to fork or download this repo for your personal use.
+```cmd
+cd YOUR_FOLDER
+git clone https://github.com/ianhorn/ArcGIS-Pro-ArcGIS-Online-Overwrite-Hosted-Services.git .
+
+git checkout -b mybranch
+conda activate " conda activate "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3"
+```
+
+#### Notebook
+
+The Jupyter [Notebook](OverwriteHostedServices.ipynb) uses ArcGIS Pro's default Python environment.  You may clone the environment, but it is not necessary because the script requires no new packages.  
+
 The objective of the notebook is to overwrite multiple hosted feature services.  You will need to gather your hosted services item ids and titles.  These values plus the values of your feature classes and output File Geodatabase names (e.g., Ky_Public_Schools_WM) are combined together as a Pandas DataFrame\*.
 
 ```python
@@ -14,14 +31,6 @@ mapping = {
 ```
 
 \* *note: the notebook walks through a feature dataset to create the initial DataFrame*
-
-## Setup
-
-Feel free to fork or download this repo for your personal use.
-
-#### Notebook
-
-The Jupyter [Notebook](OverwriteHostedServices.ipynb) uses ArcGIS Pro's default Python environment.  You may clone the environment, but it is not necessary because the script requires no new packages.  
 
 #### Credentials
 
