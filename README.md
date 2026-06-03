@@ -1,4 +1,4 @@
-# AGOL Workflow to Overwrite Hosted Services
+# ArcGIS Pro - AGOL Workflow to Overwrite Hosted Services
 
 
 The repo demonstrates how to use [ArcPy](https://doc.esri.com/en/arcgis-pro/latest/arcpy/get-started/what-is-arcpy-.html) and the [ArcGIS API for Python](https://developers.arcgis.com/python/latest/) to overwrite existing hosted services to ArcGIS Online (AGOL). 
@@ -59,3 +59,6 @@ Due to ArcGIS Pro's reliably unreliable behavior, you can expect to run into the
 3. Kill any lingering ArcGIS Pro background processes
 4. Open Pro
 5. Run notebook
+
+The notebook can be executed in ArcGIS Pro or in your preferred text editor like VS Code.  Just make sure you point the IDE the python environment, most likely 
+
