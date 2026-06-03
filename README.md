@@ -15,7 +15,7 @@ git checkout -b mybranch
 conda activate " conda activate "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3"
 ```
 
-Copy the content in the [creds_example.py](creds_example.py) file and update the variable values.
+Copy the content in the [creds_example.py](creds_example.py) file and paste in the the [creds.py](creds.py) file.  Update variable values.
 
 
 ## Notebook
