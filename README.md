@@ -15,7 +15,7 @@ git checkout -b mybranch
 conda activate " conda activate "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3"
 ```
 
-#### Notebook
+## Notebook
 
 The Jupyter [Notebook](OverwriteHostedServices.ipynb) uses ArcGIS Pro's default Python environment.  You may clone the environment, but it is not necessary because the script requires no new packages.  
 
@@ -31,7 +31,7 @@ mapping = {
 
 \* *note: the notebook walks through a feature dataset to create the initial DataFrame*
 
-#### Credentials
+## Credentials
 
 As a best practice, AGOL credentials are setup to securely login. Checkout the API's documentation on [OAuth 2.0 authentication](https://developers.arcgis.com/documentation/security-and-authentication/user-authentication/) to set up your authentication.  
 
