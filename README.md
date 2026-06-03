@@ -15,6 +15,9 @@ git checkout -b mybranch
 conda activate " conda activate "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3"
 ```
 
+Copy the content in the [creds_example.py](creds_example.py) file and update the variable values.
+
+
 ## Notebook
 
 The Jupyter [Notebook](OverwriteHostedServices.ipynb) uses ArcGIS Pro's default Python environment.  You may clone the environment, but it is not necessary because the script requires no new packages.  
