@@ -3,6 +3,10 @@
 
 The repo demonstrates how to use [ArcPy](https://doc.esri.com/en/arcgis-pro/latest/arcpy/get-started/what-is-arcpy-.html) and the [ArcGIS API for Python](https://developers.arcgis.com/python/latest/) to overwrite existing hosted services to ArcGIS Online (AGOL). 
 
+#### Assumptions
+
+The Hosted Service exists and was published via a script or upload of a file of spatial data format(e.g., File Geodataformat, GeoPackage, GeoJSON, etc.).  In other words, you services were not created using the ArcGIS Pro desktop application via share/publish.  
+
 ## Setup 
 
 #### ArcGIS Pro
