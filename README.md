@@ -13,10 +13,12 @@ The Hosted Service exists and was published via a script or upload of a file of 
 
 1. [Download Repo](https://github.com/ianhorn/ArcGIS-Pro-ArcGIS-Online-Overwrite-Hosted-Services/archive/refs/heads/main.zip)
 2. Unzip locally
-3. Copy *constants.py*, *constants_example.py*, and *OverwriteHostedServices.ipynb* into the root of your ArcGIS Pro project folder
+3. Copy *constants.py*, *constants_example.py*, and *OverwriteHostedServices.ipynb* into the root of your ArcGIS Pro project folder\*
 4. Update *constants.py* using *constants_example.py* as a template.
 5. Open Notebook in Pro
 6. Follow instructions from [Notebook](#notebook)
+
+\* A note of caution.  I added the *constants.py* and *constants_example.py* files to the .gitignore file.  You don't want to accidently commit and push to the repo with your variables.
 
 #### VS Code (optional)
 
