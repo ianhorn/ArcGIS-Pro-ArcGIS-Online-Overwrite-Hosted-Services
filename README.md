@@ -62,21 +62,12 @@ As a best practice, AGOL credentials are setup to securely login. Checkout the A
 Select the appropriate user account when prompted.  
 Copy and paste the authentication token.  
 
-Or, replace `client_id=CLIENT_ID` with `username=<USERNAME>, password=<PASSWORD>` -  ot recommended
 ```python
 gis = GIS(url="https://wwww.arcgis.com", client_id=CLIENT_ID)
-```
-
-Alternatively, you can use environmental variables such as an `env.py` file.  Because ArcPy doesn't have the *dotenv* package to import varbiables, I set up a `constants.py` file and import the variables directly.
-
-Sample constants.py file
-```python
-# CLient ID from AGOL Developer Credentials
-CLIENT_ID = "your_client_id_here"
 
 # Dabatabase variables
-DB_USER = "db_user"
-DB_PASSWORD = "db_password"
+DB_USER = 'db_user'
+DB_PASSWORD = 'db_password'
 INSTANCE = 'instance.awesome.workplace'
 DATABASE = 'awesome_vectors'
 DATABASE_PLATFORM = 'SQL_SERVER'
