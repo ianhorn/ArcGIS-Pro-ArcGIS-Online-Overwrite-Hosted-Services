@@ -11,6 +11,8 @@ __pycache__/
 in_memory
 .DS_Store
 input_tables
+constants.py
+constants_example.py
 
 # Distribution / packaging
 .Python
