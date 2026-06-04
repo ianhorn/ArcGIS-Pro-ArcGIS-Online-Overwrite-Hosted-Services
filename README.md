@@ -5,7 +5,7 @@ The repo demonstrates how to use [ArcPy](https://doc.esri.com/en/arcgis-pro/late
 
 #### Assumptions
 
-The Hosted Service exists and was published via a script or upload of a file of spatial data format(e.g., File Geodataformat, GeoPackage, GeoJSON, etc.).  In other words, you services were not created using the ArcGIS Pro desktop application via share/publish.  
+The Hosted Service exists and was published via a script or upload of a file of spatial data format (e.g., File Geodataformat, GeoPackage, GeoJSON, etc.).  In other words, your services were not created using the ArcGIS Pro desktop application via share/publish.  
 
 ## Setup 
 
